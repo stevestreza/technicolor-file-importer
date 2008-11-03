@@ -24,7 +24,7 @@ TCUUID(@"17D87DBB-846A-46FF-B624-0A72736E1BB0")
 	for(NSString *path in paths){
 		SSImportScanOperation *scanOp = [[SSImportScanOperation alloc] init];
 		scanOp.sourcePath = path;
-		[scanOp run];
+//		[scanOp run];
 		[scanOp release];
 	}
 	
@@ -32,8 +32,11 @@ TCUUID(@"17D87DBB-846A-46FF-B624-0A72736E1BB0")
 	NSArray *allEpisodes = [TCTVEpisode allEpisodes:YES];
 	
 	NSLog(@"All shows! %i",[allShows count]);
+	for(TCTVShow *show in allShows){
+		NSArray *episodes = [show episodes];
+		NSLog(@"  - Show %@ has %i episodes",[show valueForKey:@"showName"], [episodes count]);
+	}
 	NSLog(@"All episodes! %i",[allEpisodes count]);
-	printf("");
 }
 
 @end
