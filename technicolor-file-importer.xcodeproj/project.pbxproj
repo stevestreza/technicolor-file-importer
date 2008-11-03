@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF27D290EBEADBF00BFC961 /* TCMyImporterPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF27D280EBEADBF00BFC961 /* TCMyImporterPlugin.m */; };
+		1EF27E3B0EBEB9F100BFC961 /* TCCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF27D1A0EBEAD9200BFC961 /* TCCore.framework */; };
+		1EF27E670EBEBB9A00BFC961 /* SSImportScanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF27E660EBEBB9A00BFC961 /* SSImportScanOperation.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EF27D170EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = Technicolor;
+		};
+		1EF27D190EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E63689E0EA253590003034E;
+			remoteInfo = TCCore;
+		};
+		1EF27D1B0EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EB8C9630EA1AB4000984CD7;
+			remoteInfo = TCCalendarPlugin;
+		};
+		1EF27D1D0EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EB8CADF0EA1ACC300984CD7;
+			remoteInfo = TCTVRagePlugin;
+		};
+		1EF27D1F0EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5E38610EA2FBA100FD67A3;
+			remoteInfo = TCProcessingQueuePlugin;
+		};
+		1EF27D210EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5EF99D0EAC33BC006F064E;
+			remoteInfo = TCJSPlugin;
+		};
+		1EF27D230EBEAD9C00BFC961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E63689D0EA253590003034E;
+			remoteInfo = TCCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Technicolor.xcodeproj; path = ../technicolor/Technicolor.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1EF27D270EBEADBF00BFC961 /* TCMyImporterPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMyImporterPlugin.h; sourceTree = "<group>"; };
+		1EF27D280EBEADBF00BFC961 /* TCMyImporterPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMyImporterPlugin.m; sourceTree = "<group>"; };
+		1EF27DE30EBEB71A00BFC961 /* TCVideoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideoFile.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE40EBEB71A00BFC961 /* TCTVEpisode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTVEpisode.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE50EBEB71A00BFC961 /* TCOrganizationPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCOrganizationPlugin.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE60EBEB71A00BFC961 /* Technicolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Technicolor.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE70EBEB71A00BFC961 /* TCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCore.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE80EBEB71A00BFC961 /* TCTVShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTVShow.h; sourceTree = SOURCE_ROOT; };
+		1EF27DE90EBEB71A00BFC961 /* TCMovieVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMovieVideo.h; sourceTree = SOURCE_ROOT; };
+		1EF27DEA0EBEB71A00BFC961 /* TCDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDownload.h; sourceTree = SOURCE_ROOT; };
+		1EF27DEB0EBEB71A00BFC961 /* TCVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVideo.h; sourceTree = SOURCE_ROOT; };
+		1EF27DEC0EBEB71A00BFC961 /* TCMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMovie.h; sourceTree = SOURCE_ROOT; };
+		1EF27E650EBEBB9A00BFC961 /* SSImportScanOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSImportScanOperation.h; sourceTree = "<group>"; };
+		1EF27E660EBEBB9A00BFC961 /* SSImportScanOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSImportScanOperation.m; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* technicolor-file-importer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "technicolor-file-importer_Prefix.pch"; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* technicolor-file-importer.tcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "technicolor-file-importer.tcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF27E3B0EBEB9F100BFC961 /* TCCore.framework in Frameworks */,
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* technicolor-file-importer */ = {
+			isa = PBXGroup;
+			children = (
+				1EF27DE00EBEB6F900BFC961 /* TCCore Headers */,
+				1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "technicolor-file-importer";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EF27D270EBEADBF00BFC961 /* TCMyImporterPlugin.h */,
+				1EF27D280EBEADBF00BFC961 /* TCMyImporterPlugin.m */,
+				1EF27E650EBEBB9A00BFC961 /* SSImportScanOperation.h */,
+				1EF27E660EBEBB9A00BFC961 /* SSImportScanOperation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* technicolor-file-importer.tcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF27D0F0EBEAD9200BFC961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF27D180EBEAD9200BFC961 /* Technicolor.app */,
+				1EF27D1A0EBEAD9200BFC961 /* TCCore.framework */,
+				1EF27D1C0EBEAD9200BFC961 /* TCCalendarPlugin.tcplugin */,
+				1EF27D1E0EBEAD9200BFC961 /* TCTVRagePlugin.tcplugin */,
+				1EF27D200EBEAD9200BFC961 /* TCProcessingQueuePlugin.tcplugin */,
+				1EF27D220EBEAD9200BFC961 /* TCJSPlugin.tcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF27DE00EBEB6F900BFC961 /* TCCore Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1EF27DE30EBEB71A00BFC961 /* TCVideoFile.h */,
+				1EF27DE40EBEB71A00BFC961 /* TCTVEpisode.h */,
+				1EF27DE50EBEB71A00BFC961 /* TCOrganizationPlugin.h */,
+				1EF27DE60EBEB71A00BFC961 /* Technicolor.h */,
+				1EF27DE70EBEB71A00BFC961 /* TCCore.h */,
+				1EF27DE80EBEB71A00BFC961 /* TCTVShow.h */,
+				1EF27DE90EBEB71A00BFC961 /* TCMovieVideo.h */,
+				1EF27DEA0EBEB71A00BFC961 /* TCDownload.h */,
+				1EF27DEB0EBEB71A00BFC961 /* TCVideo.h */,
+				1EF27DEC0EBEB71A00BFC961 /* TCMovie.h */,
+			);
+			name = "TCCore Headers";
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* technicolor-file-importer_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* technicolor-file-importer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "technicolor-file-importer" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF27D240EBEAD9C00BFC961 /* PBXTargetDependency */,
+			);
+			name = "technicolor-file-importer";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "technicolor-file-importer";
+			productReference = 8D5B49B6048680CD000E48DA /* technicolor-file-importer.tcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "technicolor-file-importer" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* technicolor-file-importer */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1EF27D0F0EBEAD9200BFC961 /* Products */;
+					ProjectRef = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* technicolor-file-importer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1EF27D180EBEAD9200BFC961 /* Technicolor.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Technicolor.app;
+			remoteRef = 1EF27D170EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF27D1A0EBEAD9200BFC961 /* TCCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TCCore.framework;
+			remoteRef = 1EF27D190EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF27D1C0EBEAD9200BFC961 /* TCCalendarPlugin.tcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TCCalendarPlugin.tcplugin;
+			remoteRef = 1EF27D1B0EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF27D1E0EBEAD9200BFC961 /* TCTVRagePlugin.tcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TCTVRagePlugin.tcplugin;
+			remoteRef = 1EF27D1D0EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF27D200EBEAD9200BFC961 /* TCProcessingQueuePlugin.tcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TCProcessingQueuePlugin.tcplugin;
+			remoteRef = 1EF27D1F0EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EF27D220EBEAD9200BFC961 /* TCJSPlugin.tcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TCJSPlugin.tcplugin;
+			remoteRef = 1EF27D210EBEAD9200BFC961 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF27D290EBEADBF00BFC961 /* TCMyImporterPlugin.m in Sources */,
+				1EF27E670EBEBB9A00BFC961 /* SSImportScanOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF27D240EBEAD9C00BFC961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCCore;
+			targetProxy = 1EF27D230EBEAD9C00BFC961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "technicolor-file-importer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "technicolor-file-importer";
+				WRAPPER_EXTENSION = tcplugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "technicolor-file-importer_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "technicolor-file-importer";
+				WRAPPER_EXTENSION = tcplugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "technicolor-file-importer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "technicolor-file-importer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
