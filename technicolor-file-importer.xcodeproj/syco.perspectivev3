@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,8 +279,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,8 +311,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -330,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1E81A0790EBED26A001C222A</string>
+										<string>1E34B6F40EBED5F3004D0321</string>
 										<key>history</key>
 										<array>
 											<string>1EF27E510EBEBA4D00BFC961</string>
@@ -345,7 +343,7 @@
 											<string>1E0F8BB20EBECE5800F15264</string>
 											<string>1E0F8BB30EBECE5800F15264</string>
 											<string>1E81A04E0EBED107001C222A</string>
-											<string>1E81A04F0EBED107001C222A</string>
+											<string>1E81A0870EBED52C001C222A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -362,8 +360,6 @@
 											<string>1EF27EB90EBEC15F00BFC961</string>
 											<string>1EF27EBA0EBEC15F00BFC961</string>
 											<string>1EF27EBB0EBEC15F00BFC961</string>
-											<string>1E81A0500EBED107001C222A</string>
-											<string>1E81A0510EBED107001C222A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -447,7 +443,7 @@
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-										<string>{{0, 45}, {1233, 295}}</string>
+										<string>{{0, -42}, {1233, 382}}</string>
 										<key>PBXProjectModuleGUID</key>
 										<string>XCMainBuildResultsModuleGUID</string>
 										<key>PBXProjectModuleLabel</key>
@@ -488,11 +484,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1E81A0530EBED107001C222A</string>
+				<string>1E34B6E20EBED5DF004D0321</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1E81A0540EBED107001C222A</string>
+				<string>1E34B6E30EBED5DF004D0321</string>
 				<string>1EF27D060EBEAD8000BFC961</string>
-				<string>1E81A0550EBED107001C222A</string>
+				<string>1E34B6E40EBED5DF004D0321</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
