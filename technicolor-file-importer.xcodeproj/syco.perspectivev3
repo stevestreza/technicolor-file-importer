@@ -233,8 +233,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -279,6 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>15</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -300,7 +300,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-3 59 1440 819 0 0 1440 878 </string>
+						<string>-4 207 1440 819 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,6 +311,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -328,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1E34B6F40EBED5F3004D0321</string>
+										<string>1EEC5B1F0EF6B66D002C9158</string>
 										<key>history</key>
 										<array>
 											<string>1EF27E510EBEBA4D00BFC961</string>
@@ -343,7 +345,8 @@
 											<string>1E0F8BB20EBECE5800F15264</string>
 											<string>1E0F8BB30EBECE5800F15264</string>
 											<string>1E81A04E0EBED107001C222A</string>
-											<string>1E81A0870EBED52C001C222A</string>
+											<string>1EEC5B190EF6B66D002C9158</string>
+											<string>1EEC5B1A0EF6B66D002C9158</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -360,6 +363,10 @@
 											<string>1EF27EB90EBEC15F00BFC961</string>
 											<string>1EF27EBA0EBEC15F00BFC961</string>
 											<string>1EF27EBB0EBEC15F00BFC961</string>
+											<string>1EEC5B1B0EF6B66D002C9158</string>
+											<string>1EEC5B1C0EF6B66D002C9158</string>
+											<string>1EEC5B1D0EF6B66D002C9158</string>
+											<string>1EEC5B1E0EF6B66D002C9158</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -375,7 +382,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1233, 406}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-3 59 1440 819 0 0 1440 878 </string>
+								<string>-4 207 1440 819 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -400,7 +407,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {1233, 340}}</string>
 										<key>RubberWindowFrame</key>
-										<string>-3 59 1440 819 0 0 1440 878 </string>
+										<string>-4 207 1440 819 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -443,7 +450,7 @@
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-										<string>{{0, -42}, {1233, 382}}</string>
+										<string>{{0, -65}, {1233, 405}}</string>
 										<key>PBXProjectModuleGUID</key>
 										<string>XCMainBuildResultsModuleGUID</string>
 										<key>PBXProjectModuleLabel</key>
@@ -484,11 +491,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1E34B6E20EBED5DF004D0321</string>
+				<string>1EEC5B200EF6B66D002C9158</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1E34B6E30EBED5DF004D0321</string>
+				<string>1EEC5B210EF6B66D002C9158</string>
 				<string>1EF27D060EBEAD8000BFC961</string>
-				<string>1E34B6E40EBED5DF004D0321</string>
+				<string>1EEC5B220EF6B66D002C9158</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -674,7 +681,7 @@
 		<string>/Users/syco/Projects/technicolor-file-importer/technicolor-file-importer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-3 59 1440 819 0 0 1440 878 </string>
+	<string>-4 207 1440 819 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

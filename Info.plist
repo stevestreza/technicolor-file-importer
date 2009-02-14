@@ -22,5 +22,7 @@
 	<string>1.0</string>
 	<key>NSPrincipalClass</key>
 	<string>TCMyImporterPlugin</string>
+	<key>UUID</key>
+	<string>17D87DBB-846A-46FF-B624-0A72736E1BB0</string>
 </dict>
 </plist>
