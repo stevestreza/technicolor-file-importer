@@ -19,12 +19,14 @@ TCUUID(@"17D87DBB-846A-46FF-B624-0A72736E1BB0")
 	NSArray *paths = [NSArray arrayWithObjects:
 					  @"/Volumes/Lavos/Video/TV Shows/",
 					  @"/Volumes/Kerrigan/Video/TV Shows/",
+					  @"/Volumes/Kefka/Video/TV Shows/",
+					  @"/Volumes/Cortana/Video/TV Shows/",
 					  nil];
 	
 	for(NSString *path in paths){
 		SSImportScanOperation *scanOp = [[SSImportScanOperation alloc] init];
 		scanOp.sourcePath = path;
-//		[scanOp run];
+		[scanOp run];
 		[scanOp release];
 	}
 	

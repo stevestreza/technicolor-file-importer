@@ -277,7 +277,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
+									<integer>17</integer>
 									<integer>13</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1EF27D060EBEAD8000BFC961</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TCMyImporterPlugin.m</string>
+								<string>SSImportScanOperation.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1EF27D070EBEAD8000BFC961</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TCMyImporterPlugin.m</string>
+										<string>SSImportScanOperation.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1EEC5B1F0EF6B66D002C9158</string>
+										<string>1E3860F50F478BF200841BAD</string>
 										<key>history</key>
 										<array>
 											<string>1EF27E510EBEBA4D00BFC961</string>
@@ -343,10 +343,10 @@
 											<string>1EF27EA50EBEC15F00BFC961</string>
 											<string>1EF27ED50EBEC44F00BFC961</string>
 											<string>1E0F8BB20EBECE5800F15264</string>
-											<string>1E0F8BB30EBECE5800F15264</string>
 											<string>1E81A04E0EBED107001C222A</string>
 											<string>1EEC5B190EF6B66D002C9158</string>
-											<string>1EEC5B1A0EF6B66D002C9158</string>
+											<string>1E3860ED0F478BCF00841BAD</string>
+											<string>1E3860EE0F478BCF00841BAD</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -363,10 +363,8 @@
 											<string>1EF27EB90EBEC15F00BFC961</string>
 											<string>1EF27EBA0EBEC15F00BFC961</string>
 											<string>1EF27EBB0EBEC15F00BFC961</string>
-											<string>1EEC5B1B0EF6B66D002C9158</string>
 											<string>1EEC5B1C0EF6B66D002C9158</string>
-											<string>1EEC5B1D0EF6B66D002C9158</string>
-											<string>1EEC5B1E0EF6B66D002C9158</string>
+											<string>1E3860EF0F478BCF00841BAD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -450,7 +448,7 @@
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXBuildLogShowsTranscriptDefaultKey</key>
-										<string>{{0, -65}, {1233, 405}}</string>
+										<string>{{0, 27}, {1233, 313}}</string>
 										<key>PBXProjectModuleGUID</key>
 										<string>XCMainBuildResultsModuleGUID</string>
 										<key>PBXProjectModuleLabel</key>
@@ -491,11 +489,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1EEC5B200EF6B66D002C9158</string>
+				<string>1E3860F10F478BCF00841BAD</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1EEC5B210EF6B66D002C9158</string>
+				<string>1E3860F20F478BCF00841BAD</string>
 				<string>1EF27D060EBEAD8000BFC961</string>
-				<string>1EEC5B220EF6B66D002C9158</string>
+				<string>1E3860F30F478BCF00841BAD</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -678,7 +676,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/syco/Projects/technicolor-file-importer/technicolor-file-importer.xcodeproj</string>
+		<string>/Users/syco/Projects/Technicolor/technicolor-file-importer/technicolor-file-importer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>-4 207 1440 819 0 0 1680 1028 </string>

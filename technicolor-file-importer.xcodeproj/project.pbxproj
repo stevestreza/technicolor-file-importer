@@ -19,7 +19,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1EF27D0E0EBEAD9200BFC961 /* Technicolor.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1E6C75B90EE651F80099140B /* TCCoreUI.framework */;
+			remoteGlobalIDString = 1E6C75B90EE651F80099140B;
 			remoteInfo = TCCoreUI;
 		};
 		1EF27D170EBEAD9200BFC961 /* PBXContainerItemProxy */ = {
